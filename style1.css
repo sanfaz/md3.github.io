@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  padding-top: 22px;
+}
+.pp{
+    margin: 0 auto;
+    background-color: rgb(255, 230, 255);
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px black;
+    width: 65%;
+}
+h3{
+  text-align: center;
+}
+header {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .yes {
+    display: none;
+  }
+  .pp{
+    width:95%;}
+}
+li{
+  text-align: center;
+}
+.navbar-custom{
+background-color: rgb(255, 230, 255);
+border-top:  solid 4px black;
+border-bottom:  solid 4px black;
+}
